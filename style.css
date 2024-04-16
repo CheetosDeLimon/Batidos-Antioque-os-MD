@@ -1,0 +1,199 @@
+body {
+    background-color: #efefef;
+}
+
+img {
+    border-radius: 10px;
+    width: 17rem;
+    height: 14rem;
+    display: inline-block;
+}
+
+/* 
+.Tareas {
+    align-items: center;
+    padding-left: 25rem;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-left: 50px;
+    padding-right: 20px;
+} */
+
+h1,
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+/*#region ANA*/
+
+.inicio {
+    color: #8d2c9a;
+    background: linear-gradient(to right, #fcfeff 40%, #f332d9);
+    padding: 4rem;
+    margin: -1rem;
+    border-radius: 45px;
+    font-size: 2.3rem;
+}
+
+
+.inicio:hover {
+    box-shadow: 2px 5px 10px;
+    transition: box-shadow 2s;
+}
+
+.titulo1 {
+    color: #8d2c9a;
+    background: linear-gradient(to right, #fcfeff 40%, #d728c0);
+    border-radius: 8px;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.titulo1:hover {
+    padding: 1rem;
+    box-shadow: 2px 5px 10px;
+    transition: padding 2s, box-shadow 2s;
+}
+
+.conteiner {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 700px;
+    /* margin: 0 auto; */
+    text-align: center;
+    border: 4px solid #8d2c9a;
+    font-size: 20px;
+}
+
+.conteiner2 {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    border: 4px solid #8d2c9a;
+    font-size: 20px;
+    margin-left: 5rem;
+}
+
+.conteiner3 {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    border: 4px solid #8d2c9a;
+    font-size: 20px;
+}
+
+
+.conteiner4 {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    border: 4px solid #8d2c9a;
+    font-size: 20px;
+    margin-right: 2rem;
+}
+
+.conteiner:hover {
+    box-shadow: 2px 2px 8px;
+    padding: 15px;
+    transition: box-shadow 2s, padding 2s;
+
+}
+
+.conteiner2:hover {
+    box-shadow: 2px 2px 8px;
+    padding: 15px;
+    transition: box-shadow 2s, padding 2s;
+
+}
+
+
+.conteiner3:hover {
+    box-shadow: 2px 2px 8px;
+    padding: 15px;
+    transition: box-shadow 2s, padding 2s;
+
+}
+
+.conteiner4:hover {
+    box-shadow: 2px 2px 8px;
+    padding: 15px;
+    transition: box-shadow 2s, padding 2s;
+
+}
+
+.titulo2 {
+    color: #8d2c9a;
+    background: linear-gradient(to right, #fcfeff 40%, #d728c0);
+    border-radius: 8px;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.titulo2:hover {
+    padding: 1rem;
+    box-shadow: 2px 5px 10px;
+    transition: padding 2s, box-shadow 2s;
+}
+
+.ensalada {
+    width: 28rem;
+    height: 28rem;
+    position: relative;
+    float: left;
+    border: #f332d9 3.5px solid;
+}
+
+.ensalada2 {
+    width: 27rem;
+    height: 27rem;
+    margin-left: 30rem;
+    border: #f332d9 3.5px solid;
+}
+
+.ensalada3 {
+    width: 28rem;
+    height: 28rem;
+    margin-left: 2rem;
+    border: #f332d9 3.5px solid;
+}
+
+.ensalada4 {
+    width: 27rem;
+    height: 27rem;
+    margin-left: 30rem;
+    border: #f332d9 3.5px solid;
+}
+
+.ensalada:hover {
+    box-shadow: 2px 10px 15px rgb(225, 17, 17);
+    transition: box-shadow 2s;
+}
+
+.ensalada2:hover {
+    box-shadow: 2px 5px 10px rgb(225, 17, 17);
+    transition: box-shadow 3s;
+}
+
+.ensalada3:hover {
+    box-shadow: 3px 5px 8px rgb(225, 17, 17);
+    transition: box-shadow 3s;
+}
+
+.ensalada4:hover {
+    box-shadow: 3px 5px 8px rgb(225, 17, 17);
+    transition: box-shadow 3s;
+}
